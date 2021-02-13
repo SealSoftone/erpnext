@@ -121,24 +121,24 @@ def add_standard_navbar_items():
 	navbar_settings = frappe.get_single("Navbar Settings")
 
 	erpnext_navbar_items = [
-		{
-			'item_label': 'Documentation',
-			'item_type': 'Route',
-			'route': 'https://erpnext.com/docs/user/manual',
-			'is_standard': 1
-		},
-		{
-			'item_label': 'User Forum',
-			'item_type': 'Route',
-			'route': 'https://discuss.erpnext.com',
-			'is_standard': 1
-		},
-		{
-			'item_label': 'Report an Issue',
-			'item_type': 'Route',
-			'route': 'https://github.com/frappe/erpnext/issues',
-			'is_standard': 1
-		}
+		# {
+		# 	'item_label': 'Documentation',
+		# 	'item_type': 'Route',
+		# 	'route': 'https://erpnext.com/docs/user/manual',
+		# 	'is_standard': 1
+		# },
+		# {
+		# 	'item_label': 'User Forum',
+		# 	'item_type': 'Route',
+		# 	'route': 'https://discuss.erpnext.com',
+		# 	'is_standard': 1
+		# },
+		# {
+		# 	'item_label': 'Report an Issue',
+		# 	'item_type': 'Route',
+		# 	'route': 'https://github.com/frappe/erpnext/issues',
+		# 	'is_standard': 1
+		# }
 	]
 
 	current_nabvar_items = navbar_settings.help_dropdown
